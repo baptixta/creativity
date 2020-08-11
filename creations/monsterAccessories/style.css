@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-black: #2f2f2f;
+    --color-black-darker: #0c0c0c;
+    --color-blue: #4848ec;
+    --color-red: #ec4848;
+    --color-green: #36be36;
+    --color-white: #f1f1f1;
+    --color-yellow: #e4c020;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background: var(--color-white);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Monster */
+
+.monster {
+    align-items: center;
+    background: var(--color-blue);
+    border: 3px solid var(--color-black);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    justify-content: center;
+    width: 12rem;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.eyes {
+    display: flex;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.eye {
+    background: var(--color-white);
+    border: 3px solid var(--color-black);
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+.eyebrow {
+    background: var(--color-black);
+    border-radius: 2rem;
+    height: 1.4rem;
+    width: 4.5rem;
+    position: absolute;
+    top: -10px;
+    transition: all .4s ease;
+}
+
+.eyeball {
+    background: var(--color-black);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    transition: all .5s ease;
+}
+
+.mouth {
+    background: var(--color-black);
+    border-radius: .8rem;
+    height: .3rem;
+    width: 4.5rem;
+    position: relative;
+}
+
+.tooth {
+    background: var(--color-white);
+    border-left: 3px solid var(--color-black);
+    border-right: 3px solid var(--color-black);
+    border-bottom: 3px solid var(--color-black);
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+    height: 1.2rem;
+    width: 1.8rem;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+/* /////////// */
+/* Accessories */
+/* /////////// */
+
+/* Cap */
+
+.cap {
+    align-items: center;
+    background: var(--color-red);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    position: absolute;
+    /* top: -55px; */
+    top: -150px;
+    transition: all .4s ease;
+}
+
+.cap::after {
+    color: var(--color-white);
+    content: 'ಠ_ಠ';
+    position: absolute;
+    font-size: .6rem;
+    left: 6px;
+    top: 50px;
+}
+
+.top {
+    align-items: center;
+    background: var(--color-red);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 1.4rem;
+    position: absolute;
+    top: -15px;
+}
+
+.cover {
+    align-items: center;
+    background: var(--color-red);
+    border: 3px solid var(--color-black);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 1rem;
+    width: 5rem;
+    position: absolute;
+    top: 61px;
+    left: 123px;
+}
+
+.empty-part {
+    align-items: center;
+    background: var(--color-black);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 2.2rem;
+    width: 3.6rem;
+    position: absolute;
+    top: 28px;
+}
+
+/* hoodie */
+
+.hoodie {
+    align-items: center;
+    background: var(--color-green);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    position: absolute;
+    /* top: -55px; */
+    top: -150px;
+    transition: all .4s ease;
+}
+
+
+.folded-part {
+    background: var(--color-green);
+    border: 3px solid var(--color-black);
+    border-radius: .5rem;
+    height: 2rem;
+    display: flex;
+    width: 9rem;
+    position: absolute;
+    top: 50px;
+}
+
+.folded-part::after {
+    position: absolute;
+    content: "( ͡° ͜ʖ ͡°)";
+    font-size: .8rem;
+    left: 10px;
+    top: 5px;
+}
+
+/* Crown */
+
+.crown {
+    align-items: center;
+    background: var(--color-yellow);
+    border: 3px solid var(--color-black);
+    border-radius: .5rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    position: absolute;
+    /* top: -12px; */
+    top: -100px;
+    transition: all .4s ease;
+}
+
+.spike-left {
+    align-items: center;
+    background: var(--color-yellow);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 2.6rem;
+    position: absolute;
+    top: -64px;
+    left: 0px;
+}
+
+.spike-left::before {
+    position: absolute;
+    content: '';
+    border: 3px solid var(--color-black);
+    background: var(--color-red);
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    top: -10px;
+}
+
+.spike-middle {
+    align-items: center;
+    background: var(--color-yellow);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 2.6rem;
+    position: absolute;
+    top: -64px;
+    left: 40px;
+}
+
+.spike-middle::before {
+    position: absolute;
+    content: '';
+    border: 3px solid var(--color-black);
+    background: var(--color-red);
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    top: -10px;
+}
+
+.spike-right {
+    align-items: center;
+    background: var(--color-yellow);
+    border: 3px solid var(--color-black);
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 2.6rem;
+    position: absolute;
+    top: -64px;
+    left: 80px;
+}
+
+.spike-right::before {
+    position: absolute;
+    content: '';
+    border: 3px solid var(--color-black);
+    background: var(--color-red);
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    top: -10px;
+}
+
+/* Buttons */
+
+.buttons {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: 3px solid var(--color-black);
+    color: var(--color-white);
+    cursor: pointer;
+    background: var(--color-blue);
+    padding: 1rem 2rem;
+    font: 1.4rem Poppins;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: .6rem auto;
+    min-width: 15rem;
+    transition: all .3s ease;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
