@@ -23,8 +23,8 @@ body, html {
     justify-content: center;
 }
 
-.container p {
-    align-items: center;
+.container .card {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,8 +33,11 @@ body, html {
     color: var(--color-blue-soft);
     font: 700 1.5rem 'Roboto';
     margin: 2rem auto;
+    line-height: 35px;
     transition: all .4s ease;
     padding: 2rem;
+    width: 70%;
+    text-transform: uppercase;
 }
 
 .container button {
