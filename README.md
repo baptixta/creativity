@@ -26,5 +26,5 @@ I want to inspire people to create something that they enjoy, and have fun while
 
 ##### Used/Learnt
 * *HTML*
-* *CSS*
-* *Vanilla Javascript*
+* *CSS - Working with relative and absolute elements*
+* *setTimeout() Javascript Function*
