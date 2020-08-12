@@ -28,3 +28,17 @@ I want to inspire people to create something that they enjoy, and have fun while
 * *HTML*
 * *CSS - Working with relative and absolute elements*
 * *setTimeout() Javascript Function*
+
+
+##  Random Character Generator
+![Random](https://github.com/baptixta/creativity/blob/master/creations/randomCharacterGenerator/RandomCharacterGenerator.gif?raw=true)
+
+
+[My Code](https://github.com/baptixta/creativity/tree/master/creations/randomCharacterGenerator)
+
+
+##### Used/Learnt
+* *HTML*
+* *CSS - Hover Animations*
+* *Javascript Arrays*
+* *Functions with parameters*
