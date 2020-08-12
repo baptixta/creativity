@@ -15,7 +15,7 @@ I want to inspire people to create something that they enjoy, and have fun while
 # Creations
 
 * [Monster Accessories](#monster-acessories)
-* [Random Character Generator](#id02)
+* [Random Character Generator](#random-character-generator)
 
 ##  Monster Acessories
 ![Monster](https://github.com/baptixta/creativity/blob/master/creations/monsterAccessories/monsterAccessories.gif?raw=true)
