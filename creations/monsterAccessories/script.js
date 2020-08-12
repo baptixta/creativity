@@ -8,7 +8,7 @@ const eyeballs = document.querySelectorAll('.eyeball')
 const eyebrows = document.querySelectorAll('.eyebrow')
 
 
-// Setting opacity to 0
+// Setting opacity to "0"
 cap.style.opacity = "0"
 hoodie.style.opacity = "0"
 crown.style.opacity = "0"

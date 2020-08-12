@@ -122,7 +122,6 @@ html, body {
     justify-content: center;
     width: 8rem;
     position: absolute;
-    /* top: -55px; */
     top: -150px;
     transition: all .4s ease;
 }
