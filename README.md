@@ -18,7 +18,7 @@ I want to inspire people to create something that they enjoy, and have fun while
 * [Random Character Generator](#id02)
 
 ##  Monster Acessories <a name="id01"></a>
-[monster](https://github.com/baptixta/creativity/blob/master/creations/monsterAccessories/monsterAccessories.gif?raw=true)
+![Monster](https://github.com/baptixta/creativity/blob/master/creations/monsterAccessories/monsterAccessories.gif?raw=true)
 
 
 [My Code](https://github.com/baptixta/creativity/tree/master/creations/monsterAccessories)
