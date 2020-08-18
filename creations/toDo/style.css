@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-black: #252525;
+    --color-black-darker: #0c0c0c;
+    --color-blue: #48b0ec;
+    --color-blue-darker: #115075;
+    --color-blue-lighter: #68c8fc;
+}
+
+html, body {
+    background: var(--color-black-darker);
+    height: 100vh;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+}
+
+/* Box */
+.box {
+    align-items: center;
+    background: var(--color-black);
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem auto;
+    padding: 1.3rem 2rem;
+    position: relative;
+}
+
+.box h1 {
+    color: var(--color-blue);
+    margin-bottom: 1.8rem;
+    text-transform: uppercase;
+}
+
+.add-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+input {
+    background: transparent;
+    border: 2px solid var(--color-blue);
+    color: var(--color-blue);
+    font: 1.1rem 'Poppins';
+    margin: 0;
+    outline: var(--color-blue);
+    padding: .6rem .6rem;
+    width: 100%;
+}
+
+button {
+    background: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    color: var(--color-black);
+    cursor: pointer;
+    font: 1.1rem 'Poppins';
+    outline: var(--color-blue);
+    padding: .6rem .6rem;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: var(--color-blue-lighter);
+    border: 2px solid var(--color-blue-lighter);
+}
+
+.items {
+    color: var(--color-blue);
+    margin: 1.2rem auto;
+    width: 95%;
+}
+
+.item {
+    align-items: center;
+    background: var(--color-blue);
+    border-radius: .15rem;
+    color: var(--color-black-darker);
+    display: flex;
+    justify-items: center;
+    margin: 1.2rem auto;
+    min-height: 3rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.item strong {
+    align-items: center;
+    max-width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    transition: all .5s ease;
+}
+
+.item-line {
+    text-decoration: line-through;
+}
+
+.item span img {
+    cursor: pointer;
+    height: 1.2rem;
+    transition: all .2s ease;
+}
+
+.item span img:hover {
+    transform: scale(1.15);
+}
+
+.item-done,
+.item-remove {
+    display: flex;
+    position: absolute;
+}
+
+.item-done {
+    right: 3rem;
+}
+
+.item-remove {
+    right: 1rem;
+}
