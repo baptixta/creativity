@@ -14,9 +14,21 @@ I want to inspire people to create something that they enjoy, and have fun while
 
 # Creations
 
+* [Skateboard.css](#skateboard-in-pure-css)
 * [Monster Accessories](#monster-acessories)
 * [Random Character Generator](#random-character-generator)
 * [To Do List](#to-do-list)
+
+##  Skateboard in Pure CSS
+![Skateboard](https://github.com/baptixta/creativity/blob/master/creations/skateboardCSS/skateboard.gif?raw=true)
+
+
+[My Code](https://github.com/baptixta/creativity/tree/master/creations/skateboardCSS)
+
+
+##### Used/Learnt
+* *HTML*
+* *CSS - Keyframe Animations*
 
 ##  Monster Acessories
 ![Monster](https://github.com/baptixta/creativity/blob/master/creations/monsterAccessories/monsterAccessories.gif?raw=true)
