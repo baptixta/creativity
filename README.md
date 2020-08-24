@@ -16,6 +16,7 @@ I want to inspire people to create something that they enjoy, and have fun while
 
 * [Monster Accessories](#monster-acessories)
 * [Random Character Generator](#random-character-generator)
+* [To Do List](#to-do-list)
 
 ##  Monster Acessories
 ![Monster](https://github.com/baptixta/creativity/blob/master/creations/monsterAccessories/monsterAccessories.gif?raw=true)
@@ -42,3 +43,16 @@ I want to inspire people to create something that they enjoy, and have fun while
 * *CSS - Hover Animations*
 * *Javascript Arrays*
 * *Functions with parameters*
+
+
+##  To Do List
+![To](https://github.com/baptixta/creativity/blob/master/creations/toDo/todo.gif?raw=true)
+
+
+[My Code](https://github.com/baptixta/creativity/tree/master/creations/toDo)
+
+
+##### Used/Learnt
+* *HTML*
+* *CSS - SASS*
+* *Node.appendChild - Javascript Method*
