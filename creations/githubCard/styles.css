@@ -1,0 +1,64 @@
+/* Base */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+:root {
+    --color-bg: #2f2f2f;
+    --color-card-bg: #141414;
+    --color-card-name: #f1f1f1;
+    --color-card-location: #e04040;
+    --color-card-bio: #ffacac;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    align-items: center;
+    background-color: var(--color-bg);
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Card Github */
+
+.card {
+    background: var(--color-card-bg);
+    border-radius: .3rem;
+    padding: 1.5rem;
+}
+
+.card-avatar {
+    display: flex;
+    position: relative;
+}
+
+.card-avatar-img {
+    border-radius: .2rem;
+    margin-right: 1.5rem;
+    width: 12rem;
+}
+
+.card-avatar-name {
+    color: var(--color-card-name);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card-avatar-location {
+    color: var(--color-card-location);
+    letter-spacing: 1px;
+    margin-top: .3rem;
+}
+
+.card-avatar-bio {
+    color: var(--color-card-bio);
+    position: absolute;
+    bottom: 10px;
+}
