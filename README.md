@@ -1,4 +1,5 @@
 # 🚀 Creativity
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 Creativity, is a repository where I develop my crazy ideas, and use that fuel to study technology.
 
