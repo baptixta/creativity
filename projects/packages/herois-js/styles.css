@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+:root {
+    font-family: 'Archivo', sans-serif;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.button {
+    background: #2f2f2f;
+    border-radius: .2rem;
+    color: #f1f1f1;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.card {
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: .15rem;
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    min-height: 384px;
+    min-width: 220px;
+    padding: 2rem;
+}
+
+.card img {
+    border-radius: .2rem;
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.modal {
+    background: #f1f1f1;
+    display: none;
+    flex-direction: column;
+    padding: 2rem;
+    position: absolute;
+}
+
+.modal h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.modal a:not(:last-child) {
+    margin-bottom: 1rem;
+}

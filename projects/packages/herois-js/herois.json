@@ -1,0 +1,35 @@
+{
+  "herois": {
+    "Spider Man": [
+      {
+        "nome": "Peter Parker",
+        "idade": "21",
+        "imagem": "https://i.pinimg.com/originals/af/9d/c5/af9dc5439758dab6fa33e37c89e14044.jpg"
+      }  
+    ],
+    
+    "Captain America": [
+      {
+        "nome": "Steve Rogers",
+        "idade": "112",
+        "imagem": "https://i.pinimg.com/originals/9b/76/75/9b767505f5a5df3df348a898ba4ae8bb.jpg"
+      }  
+    ],
+    
+    "Hulk": [
+      {
+        "nome": "Bruce Banner",
+        "idade": "39",
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/a/aa/Hulk_%28circa_2019%29.png"
+      }  
+    ],
+    
+    "Iron Man": [
+      {
+        "nome": "Tony Stark",
+        "idade": "42",
+        "imagem": "https://conteudo.imguol.com.br/c/entretenimento/00/2019/09/16/tony-stark-iron-man-1568679960317_v2_450x450.jpg"
+      }  
+    ]
+  }
+}
