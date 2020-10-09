@@ -1,5 +1,4 @@
 # 🚀 Creativity
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 Creativity, is a repository where I develop my crazy ideas, and use that fuel to study technology.
 
@@ -15,10 +14,18 @@ I want to inspire people to create something that they enjoy, and have fun while
 
 # Creations
 
-* [Skateboard.css](#skateboard-in-pure-css)
-* [Monster Accessories](#monster-acessories)
-* [Random Character Generator](#random-character-generator)
-* [To Do List](#to-do-list)
+- [🚀 Creativity](#-creativity)
+- [Goal](#goal)
+    - [Want to help me/others to get inspired?](#want-to-help-meothers-to-get-inspired)
+- [Creations](#creations)
+  - [Skateboard in Pure CSS](#skateboard-in-pure-css)
+        - [Used/Learnt](#usedlearnt)
+  - [Monster Acessories](#monster-acessories)
+        - [Used/Learnt](#usedlearnt-1)
+  - [Random Character Generator](#random-character-generator)
+        - [Used/Learnt](#usedlearnt-2)
+  - [To Do List](#to-do-list)
+        - [Used/Learnt](#usedlearnt-3)
 
 ##  Skateboard in Pure CSS
 ![Skateboard](https://github.com/baptixta/creativity/blob/master/creations/skateboardCSS/skateboard.gif?raw=true)
