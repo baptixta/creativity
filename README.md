@@ -21,6 +21,8 @@ I want to inspire people to create something that they enjoy, and have fun while
     - [Used/Learnt](#usedlearnt-2)
 - [To Do List](#to-do-list)
     - [Used/Learnt](#usedlearnt-3)
+- [Hero Info](#hero-info)
+    - [Used/Learnt](#usedlearnt-4)
 
 ## Skateboard in Pure CSS
 ![Skateboard](https://github.com/baptixta/creativity/blob/master/creations/skateboardCSS/skateboard.gif?raw=true)
