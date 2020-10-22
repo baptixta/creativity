@@ -1,0 +1,25 @@
+.gallery {
+    align-items: center;
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+    display: flex;
+    margin-top: 2.5rem;
+    max-width: 80%;
+    min-height: 560px;
+    overflow-x: auto;
+
+    scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+    padding: 1.2rem;
+    scroll-snap-align: center;
+    transition: all .2s ease;
+}
+
+// Responsive
+
+@media (max-width: 768px) {
+    .gallery {
+        min-height: 420px;
+    }
+}

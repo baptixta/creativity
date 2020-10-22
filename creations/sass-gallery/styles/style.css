@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Archivo', 'Arial', 'sans-serif';
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: #1f1f1f;
+  letter-spacing: .35rem;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 80%;
+}
+
+.gallery {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2.5rem;
+  max-width: 80%;
+  min-height: 560px;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+  padding: 1.2rem;
+  scroll-snap-align: center;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    min-height: 420px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
